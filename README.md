@@ -22,7 +22,7 @@ to run immediately or at an appropriate time.
 ## In this Project
 
  -  OneTimeWorkRequest with passing input/output parameters
- -  OneThttps://medium.com/androiddevelopers/workmanager-periodicity-ff35185ff006imeWorkRequest Progress Update with using setProgress
+ -  OneTimeWorkRequest Progress Update with using setProgress
  -  PeriodicWorkRequest with constraints
        
 ![image](https://user-images.githubusercontent.com/53125879/79502699-d28dc980-7fe4-11ea-9ded-04d113441173.png)
