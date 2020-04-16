@@ -24,8 +24,10 @@ to run immediately or at an appropriate time.
  -  OneTimeWorkRequest with passing input/output parameters
  -  OneTimeWorkRequest Progress Update with using setProgress
  -  PeriodicWorkRequest with constraints
-       
-![image](https://user-images.githubusercontent.com/53125879/79502699-d28dc980-7fe4-11ea-9ded-04d113441173.png)
+      
+   
+      
+![image](https://user-images.githubusercontent.com/53125879/79510099-9876f480-7ff1-11ea-92c4-b546368c76f9.png)
 
 
 
