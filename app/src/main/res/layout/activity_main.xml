@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/textView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onetime Work with Input/Output"
+            android:layout_weight="0.5"
+            android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/runOneTimeWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Work"
+        android:layout_weight="2"
+        />
+    </LinearLayout>
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onetime Work with Progress"
+        android:layout_weight="0.5"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start Work" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop Work"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Periodic Work"
+        android:layout_weight="0.5"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startPeriodicWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Work"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/stopPeriodicWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Work"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
