@@ -14,6 +14,14 @@ to run immediately or at an appropriate time.
   
 ![image](https://user-images.githubusercontent.com/53125879/79498728-a1aa9600-7fde-11ea-8e61-e0b2d8c3479f.png)
 
+ [What shoud I do?]
+ 
+ # JobIntentService : Short, finite task witn no constraint
+ # Work Manager : task that are loner, have constraints, or be repeated periodically
+ # Backgroun Service : state management with focused with UI
+ # Foreground Service : Visual or auditory elements
+ 
+ 
  [WorkManager]
 
 ![image](https://user-images.githubusercontent.com/53125879/79498789-b71fc000-7fde-11ea-8887-6ea51d55d828.png)
