@@ -16,12 +16,19 @@ to run immediately or at an appropriate time.
 
  [What shoud I do?]
  
- # JobIntentService : Short, finite task witn no constraint
- # Work Manager : task that are loner, have constraints, or be repeated periodically
- # Backgroun Service : state management with focused with UI
- # Foreground Service : Visual or auditory elements
- 
- 
+ - JobIntentService :  Short, finite task witn no constraint
+ - Work Manager : task that are loner, have constraints, or be repeated periodically
+ - Backgroun Service : state management with focused with UI
+                       When a service is started using startService API.
+                       By default services are background, meaning that if the system needs to kill them to reclaim more memory,
+                       they can be killed without too much harm.
+                       
+ - Foreground Service : Visual or auditory elements
+                       When a service is started using startForeground API to put the service in a foreground state,
+                       where the system considers it to be something the user is actively aware of 
+                       and not a candidate for killing when low on memory. 
+             
+  
  [WorkManager]
 
 ![image](https://user-images.githubusercontent.com/53125879/79498789-b71fc000-7fde-11ea-8887-6ea51d55d828.png)
